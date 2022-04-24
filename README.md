@@ -7,10 +7,12 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 ## Results:
 
+````
 #Calculated the balanced accuracy score
 from sklearn.metrics import balanced_accuracy_score
 y_pred = ros_m.predict(X_test)
 balanced_accuracy_score(y_test, y_pred)
+````
 
 ### Oversampling
 - <I>Naive Random Oversampling:</I> Accuracy Test --> 66.49%; AVG Precision Score --> 99%; AVG Recall Scores --> 60%
